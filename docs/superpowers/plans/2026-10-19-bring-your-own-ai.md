@@ -8,7 +8,7 @@
 
 **Tech Stack:** Python 3.11 stdlib (`urllib.request`, `json`, `ipaddress`), SQLite, existing dashboard (`http.server` + vanilla JS), pytest. Spec: `docs/superpowers/specs/2026-10-19-bring-your-own-ai-design.md`.
 
-**Conventions (from AGENTS.md):** tests offline (patch `urllib.request.urlopen`), files < 800 lines, Python 3.11 f-strings, no `print` in library code except existing CLI-facing modules, run `python3 -m pytest tests/ -q` after every task, commit with the Fred-In-tech no-reply identity.
+**Conventions (from AGENTS.md):** tests offline (patch `urllib.request.urlopen`), files < 800 lines, Python 3.11 f-strings, no `print` in library code except existing CLI-facing modules, run `python3 -m pytest tests/ -q` after every task, commit with the FVM-Productions no-reply identity.
 
 ---
 

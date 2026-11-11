@@ -1,6 +1,6 @@
 # Automated SDR by Fred - one-command installer for Windows (PowerShell 5.1 or newer).
 #
-#   irm https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.ps1 | iex
+#   irm https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.ps1 | iex
 #
 # What it does (no admin rights needed; if something is missing it tells you the command to run):
 #   1. checks for git and Python 3.11 or newer
@@ -26,7 +26,7 @@
     Set-StrictMode -Version 2
     $ErrorActionPreference = 'Stop'
 
-    $DefaultRepo = 'https://github.com/Fred-In-tech/automated-sdr-agent.git'
+    $DefaultRepo = 'https://github.com/FVM-Productions/automated-sdr-agent.git'
     $MinPython = '3.11'
 
     function Write-Banner {

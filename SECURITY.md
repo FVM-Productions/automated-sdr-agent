@@ -19,7 +19,7 @@ Fixes ship in the newest release only. Run `sdr update` to get it; see
 **Please don't open a public issue for security problems.** Report them privately through
 GitHub's security advisories instead:
 
-1. Go to https://github.com/Fred-In-tech/automated-sdr-agent/security/advisories/new, or
+1. Go to https://github.com/FVM-Productions/automated-sdr-agent/security/advisories/new, or
    open the repository's **Security** tab and click **Report a vulnerability**.
 2. Include the version (the `VERSION` file), your operating system, the steps to reproduce it,
    and what an attacker could do with it.
@@ -114,7 +114,7 @@ You're the data controller for the leads you collect. Keep the computer's disk e
 - Release tags aren't signed yet. If you need stronger guarantees, set `mode = "off"`, pin a
   commit you've reviewed, and update by hand.
 - The installers are plain scripts. To read one before running it:
-  `curl -fsSL https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.sh -o install.sh`,
+  `curl -fsSL https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.sh -o install.sh`,
   then `less install.sh` and `bash install.sh`. Neither installer uses sudo or admin rights.
 
 ## Responsible use

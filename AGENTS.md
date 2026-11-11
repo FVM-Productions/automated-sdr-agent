@@ -52,8 +52,8 @@ personal data stays on the machine, in `config/profile.toml`, `.env` and `data/`
 
 | System | Command |
 |---|---|
-| macOS / Linux | `curl -fsSL https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.sh \| bash` |
-| Windows (PowerShell) | `irm https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.ps1 \| iex` |
+| macOS / Linux | `curl -fsSL https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.sh \| bash` |
+| Windows (PowerShell) | `irm https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.ps1 \| iex` |
 
 The installer puts the code in `~/automated-sdr` (Windows: `%USERPROFILE%\automated-sdr`) and
 creates a private `.venv`. It adds the `sdr` command to `~/.local/bin` (Windows:
@@ -65,11 +65,11 @@ install command and stops.
 the wizard and configure it with an answers file instead:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.sh | SDR_NO_SETUP=1 bash
+curl -fsSL https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.sh | SDR_NO_SETUP=1 bash
 ```
 
 ```powershell
-$env:SDR_NO_SETUP = '1'; irm https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.ps1 | iex; $LASTEXITCODE
+$env:SDR_NO_SETUP = '1'; irm https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.ps1 | iex; $LASTEXITCODE
 ```
 
 Installer options (environment variables): `SDR_HOME` (install folder), `SDR_REPO` (git URL),

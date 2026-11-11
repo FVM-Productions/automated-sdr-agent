@@ -14,7 +14,7 @@ welcome. Everyone taking part follows the [Code of Conduct](CODE_OF_CONDUCT.md).
 ## Development setup
 
 ```bash
-git clone https://github.com/Fred-In-tech/automated-sdr-agent.git
+git clone https://github.com/FVM-Productions/automated-sdr-agent.git
 cd automated-sdr-agent
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt pytest       # Windows: .venv\Scripts\pip install -r requirements.txt pytest

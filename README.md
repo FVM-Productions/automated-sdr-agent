@@ -6,7 +6,7 @@ A free, open-source sales development rep (SDR) that runs on your own computer a
 own mailbox. You tell it who your ideal client is. It finds those businesses, emails them a short,
 human-sounding sequence, reads every reply, and hands you the people who are interested.
 
-[![Tests](https://github.com/Fred-In-tech/automated-sdr-agent/actions/workflows/tests.yml/badge.svg)](https://github.com/Fred-In-tech/automated-sdr-agent/actions/workflows/tests.yml)
+[![Tests](https://github.com/FVM-Productions/automated-sdr-agent/actions/workflows/tests.yml/badge.svg)](https://github.com/FVM-Productions/automated-sdr-agent/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 ![macOS · Linux · Windows](https://img.shields.io/badge/runs%20on-macOS%20%C2%B7%20Linux%20%C2%B7%20Windows-lightgrey.svg)
@@ -18,13 +18,13 @@ human-sounding sequence, reads every reply, and hands you the people who are int
 **Install on macOS or Linux** (Terminal):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.sh | bash
 ```
 
 **Install on Windows** (PowerShell):
 
 ```powershell
-irm https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.ps1 | iex
 ```
 
 Then answer a few questions, which takes about 5 minutes. [More about installing ↓](#install-in-one-line)
@@ -70,8 +70,8 @@ you the exact command to install it. It never uses `sudo` or admin rights.
 
 | System | Open | Paste this |
 |---|---|---|
-| **macOS / Linux** | Terminal (Mac: press `⌘ Space`, type *Terminal*) | `curl -fsSL https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.sh \| bash` |
-| **Windows 10/11** | PowerShell (Start menu, type *PowerShell*; no admin needed) | `irm https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.ps1 \| iex` |
+| **macOS / Linux** | Terminal (Mac: press `⌘ Space`, type *Terminal*) | `curl -fsSL https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.sh \| bash` |
+| **Windows 10/11** | PowerShell (Start menu, type *PowerShell*; no admin needed) | `irm https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.ps1 \| iex` |
 
 The installer:
 
@@ -99,17 +99,17 @@ Set these environment variables before running the installer:
 | `SDR_NO_SETUP=1` | Install only; run `sdr setup` yourself later | off |
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.sh | SDR_NO_SETUP=1 SDR_HOME=~/tools/sdr bash
+curl -fsSL https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.sh | SDR_NO_SETUP=1 SDR_HOME=~/tools/sdr bash
 ```
 
 ```powershell
-$env:SDR_NO_SETUP = '1'; irm https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.ps1 | iex
+$env:SDR_NO_SETUP = '1'; irm https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.ps1 | iex
 ```
 
 **Want to read the installer first?** Good instinct:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.sh -o install.sh
+curl -fsSL https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.sh -o install.sh
 less install.sh
 bash install.sh
 ```
@@ -120,7 +120,7 @@ bash install.sh
 <summary><b>Manual install with git</b> (for developers)</summary>
 
 ```bash
-git clone https://github.com/Fred-In-tech/automated-sdr-agent.git ~/automated-sdr
+git clone https://github.com/FVM-Productions/automated-sdr-agent.git ~/automated-sdr
 cd ~/automated-sdr
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
@@ -130,7 +130,7 @@ bin/sdr setup
 Windows (PowerShell):
 
 ```powershell
-git clone https://github.com/Fred-In-tech/automated-sdr-agent.git $env:USERPROFILE\automated-sdr
+git clone https://github.com/FVM-Productions/automated-sdr-agent.git $env:USERPROFILE\automated-sdr
 cd $env:USERPROFILE\automated-sdr
 py -3 -m venv .venv
 .venv\Scripts\pip install -r requirements.txt
@@ -183,7 +183,7 @@ email wording is kept.
 
 Using Claude Code, Cursor, Codex, Copilot or Windsurf? Paste this into it:
 
-> Install and set up https://github.com/Fred-In-tech/automated-sdr-agent for me. Follow its AGENTS.md.
+> Install and set up https://github.com/FVM-Productions/automated-sdr-agent for me. Follow its AGENTS.md.
 
 [AGENTS.md](AGENTS.md) tells the agent exactly what to do.
 
@@ -562,7 +562,7 @@ for this window, then run the installer:
 
 ```powershell
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
-irm https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.ps1 | iex
 ```
 
 </details>
@@ -643,4 +643,4 @@ The tests are offline: they never scrape, send email or touch your crontab. Secu
 
 ---
 
-<p align="center">Built by <a href="https://github.com/Fred-In-tech">Fred</a> · <a href="https://myproposer.com">MyProposer</a></p>
+<p align="center">Built by <a href="https://freddyvillemedia.com">Freddyville Media Productions</a> · Houston, Texas</p>

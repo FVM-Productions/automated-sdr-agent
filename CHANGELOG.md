@@ -393,8 +393,8 @@ computer. It finds your ideal clients, emails them, and handles the replies.
 - The Brave Search key is never sent along on a redirect.
 - Installers install the newest release tag, not unreleased code.
 
-[Unreleased]: https://github.com/Fred-In-tech/automated-sdr-agent/compare/v1.2.1...HEAD
-[1.2.1]: https://github.com/Fred-In-tech/automated-sdr-agent/compare/v1.2.0...v1.2.1
-[1.2.0]: https://github.com/Fred-In-tech/automated-sdr-agent/compare/v1.1.0...v1.2.0
-[1.1.0]: https://github.com/Fred-In-tech/automated-sdr-agent/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/Fred-In-tech/automated-sdr-agent/releases/tag/v1.0.0
+[Unreleased]: https://github.com/FVM-Productions/automated-sdr-agent/compare/v1.2.1...HEAD
+[1.2.1]: https://github.com/FVM-Productions/automated-sdr-agent/compare/v1.2.0...v1.2.1
+[1.2.0]: https://github.com/FVM-Productions/automated-sdr-agent/compare/v1.1.0...v1.2.0
+[1.1.0]: https://github.com/FVM-Productions/automated-sdr-agent/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/FVM-Productions/automated-sdr-agent/releases/tag/v1.0.0

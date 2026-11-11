@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Automated SDR by Fred - one-command installer for macOS and Linux.
 #
-#   curl -fsSL https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main/install.sh | bash
 #
 # What it does (it never uses sudo; if something is missing it tells you the command to run):
 #   1. checks for git and Python 3.11 or newer
@@ -25,8 +25,8 @@
 
 set -euo pipefail
 
-SDR_DEFAULT_REPO="https://github.com/Fred-In-tech/automated-sdr-agent.git"
-SDR_RAW_URL="https://raw.githubusercontent.com/Fred-In-tech/automated-sdr-agent/main"
+SDR_DEFAULT_REPO="https://github.com/FVM-Productions/automated-sdr-agent.git"
+SDR_RAW_URL="https://raw.githubusercontent.com/FVM-Productions/automated-sdr-agent/main"
 SDR_MIN_PYTHON="3.11"
 
 # ----------------------------------------------------------------------------- output helpers

@@ -21,8 +21,8 @@ everyone who takes part (in issues, pull requests and discussions) to feel welco
 
 The maintainer may edit or remove comments, code or issues that break these rules, and may block
 people who keep breaking them. Report a problem privately through
-[a private security advisory](https://github.com/Fred-In-tech/automated-sdr-agent/security/advisories/new),
-or by messaging [@Fred-In-tech](https://github.com/Fred-In-tech) on GitHub. Reports are kept
+[a private security advisory](https://github.com/FVM-Productions/automated-sdr-agent/security/advisories/new),
+or by messaging [@FVM-Productions](https://github.com/FVM-Productions) on GitHub. Reports are kept
 confidential.
 
 This code is adapted from the ideas in the [Contributor Covenant](https://www.contributor-covenant.org/).
